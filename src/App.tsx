@@ -1,7 +1,11 @@
-import React from 'react';
+import { Button } from 'antd';
 
-function App() {
-  return <div>SM Dictionary</div>;
+const App = () => {
+  return(
+    <div>
+        <Button type="primary">Primary Button</Button>
+    </div>
+  )
 }
 
 export default App;

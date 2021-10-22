@@ -11,7 +11,7 @@ const App: FC = () => {
       <Layout>
         <HeaderDict />
         <div>
-          <ButtonDict>HeyHeyHey...</ButtonDict>
+          <ButtonDict>HeyHeyHey ...</ButtonDict>
         </div>
         <FooterDict />
       </Layout>

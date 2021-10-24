@@ -1,18 +1,20 @@
 import { FC } from 'react';
-import { Button, Layout } from 'antd';
-import HeaderDict from '../HeaderDict/HeaderDict'
+import './App.scss';
+import { Layout } from 'antd';
+import HeaderDict from '../HeaderDict/HeaderDict';
 import FooterDict from '../FooterDict/FooterDict';
+import ButtonDict from '../UI/ButtonDict';
 
 const App: FC = () => {
   return (
     <>
-    <Layout>
-      <HeaderDict />
-      <div>
-      <Button type="primary">Primary Button</Button>
-      </div>
-      <FooterDict />
-    </Layout>
+      <Layout>
+        <HeaderDict />
+        <div>
+          <ButtonDict>HeyHeyHey ...</ButtonDict>
+        </div>
+        <FooterDict />
+      </Layout>
     </>
   );
 };
